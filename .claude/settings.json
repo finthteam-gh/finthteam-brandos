@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd ~/Dev/andamanlife-os && git add . && git commit -m \"auto: session $(date +%Y-%m-%d_%H%M)\" --allow-empty && git push origin main"
+            "command": "cd ~/Dev/andamanlife-os && git add . && git commit -m \"auto: session $(date +%Y-%m-%d_%H%M)\" --allow-empty && git push origin andamanlife"
           }
         ]
       }
