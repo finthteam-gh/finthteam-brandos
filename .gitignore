@@ -11,3 +11,4 @@ _shared/mcp-needs-auth-cache.json
 # macOS
 .DS_Store
 **/.DS_Store
+.claude/worktrees/
