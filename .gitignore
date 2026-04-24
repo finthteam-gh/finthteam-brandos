@@ -1,0 +1,13 @@
+# Claude Code internal data — never commit these
+_shared/sessions/
+_shared/projects/
+_shared/backups/
+_shared/cache/
+_shared/history.jsonl
+_shared/shell-snapshots/
+_shared/plugins/marketplaces/
+_shared/mcp-needs-auth-cache.json
+
+# macOS
+.DS_Store
+**/.DS_Store
