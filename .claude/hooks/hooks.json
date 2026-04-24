@@ -1,0 +1,8 @@
+{
+  "hooks": [
+    {
+      "event": "Stop",
+      "command": "bash /Users/apichaichiarakul/Dev/finth-os/.claude/hooks/post-session.sh"
+    }
+  ]
+}
