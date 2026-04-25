@@ -47,3 +47,18 @@ Output format — dual export, always both:
 
 Label outputs clearly: NOTION VERSION and WORDPRESS VERSION.
 All drafts labelled DRAFT until approved by Jere.
+
+## Output filing
+
+Save article drafts to:
+```
+~/Library/Mobile Documents/com~apple~CloudDocs/CoWork_Projects/AndamanLife/CONTENT/Blog/drafts/AL-[N]/
+```
+
+Move to published once approved by Jere:
+```
+~/Library/Mobile Documents/com~apple~CloudDocs/CoWork_Projects/AndamanLife/CONTENT/Blog/published/AL-[N]/
+```
+
+File naming: `YYYY-MM-DD_[slug].md`
+Example: `2026-04-24_rawai-european-living.md`
