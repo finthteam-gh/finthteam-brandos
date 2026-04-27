@@ -68,14 +68,55 @@ Before drafting content: which profile would stop scrolling for this — A or B?
 
 ---
 
-## Brand colours
+## Brand colors
 
-| Name | Hex |
-|---|---|
-| Midnight | #272d4f |
-| Egg | #e8dec5 |
-| Silver | #f4f4f4 |
-| Sauce | #e95c4b — accent only, use sparingly |
+Full color system reference: `02_Design_System/color-system.md`
+
+### Primary palette
+
+| Name | Hex | Role |
+|---|---|---|
+| Midnight | #272d4f | Primary brand anchor — covers, headers, closing slides, hero |
+| Egg | #e8dec5 | Warm editorial base — softer layouts, diagram backgrounds |
+| Silver | #f4f4f4 | Neutral base — content-heavy pages, data, tables, charts |
+| Sauce | #e95c4b | Accent and action only — never default background, never body text |
+
+### Support palette
+
+| Name | Hex | Role |
+|---|---|---|
+| Ink | #111111 | Primary text on all light backgrounds — always |
+| Egg supplement | #f8f5f0 | Soft supporting background, text panels, subtle cards |
+| Linen supplement | #d8d6d3 | Dividers, secondary panels, chart fills, labels |
+| Midnight supplement | #3a4268 | Layered depth in Midnight-led materials, charts |
+| Warm linen | #c9c1ad | Borders, table rules, quiet separators on Egg layouts |
+| Sauce supplement | #c96a5e | Secondary emphasis when Sauce is already main accent |
+
+### Extended palette — use with semantic intent only
+
+| Family | Light | Medium | Dark | When to use |
+|---|---|---|---|---|
+| Sage | #CADDDB | #A2B9B7 | #809A96 | Growth, success, positive metrics, sustainability |
+| Slate | #EAF0F8 | #AABBCB | #839CBD | Technology, analysis, benchmarks, objectivity |
+| Blush | #F7E6E8 | #F5CFD3 | #D4A9AE | People, culture, client stories, sentiment |
+
+Extended palette rules:
+- Never use extended colors as covers, hero sections, or closing slide backgrounds — primary palette only for those
+- Maximum 2 extended families per deck or layout — choose based on topic
+- Light shades → backgrounds and panel fills
+- Medium shades → chart fills, diagram elements, UI components
+- Dark shades → chart labels and emphasis only, never body text
+- Never pair Sauce and Blush in the same element (both warm, they clash)
+- Never use Slate Light on Silver backgrounds (too similar)
+- Grid lines / axes: Warm linen #c9c1ad on light backgrounds, Midnight supplement #3a4268 on dark
+
+### Color decisions
+
+- Content about revenue, growth, or sustainability → Sage
+- Content about technology, analysis, or data → Slate
+- Content about people, culture, or team → Blush
+- Brand identity moments, premium content → primary palette only
+- Urgency, CTAs, key highlights → Sauce only
 
 ---
 
